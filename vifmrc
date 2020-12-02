@@ -327,6 +327,9 @@ set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
 nnoremap n :q<cr>
 nnoremap m :Vifm
 
+nnoremap mf :touch<space>
+nnoremap md :mkdir<space>
+nnoremap <bs> h
 " Start shell in current directory
 nnoremap s :shell<cr>
 
